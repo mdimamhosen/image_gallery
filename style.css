@@ -64,6 +64,11 @@ img:hover {
   height: 20%;
   padding: 1.2rem;
   transition: 0.3s;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 .card:hover figcaption {
   opacity: 1;
